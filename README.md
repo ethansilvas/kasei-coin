@@ -70,7 +70,11 @@ This is a Solidity project ran using the following dependencies:
 
 ## Installation and Usage
 
+If you would like to use these contracts yourself you can upload [KaseiCoin.sol](./KaseiCoin.sol) and [KaseiCoinCrowdSale.sol](./KaseiCoinCrowdsale.sol) to Remix and compile them using the 0.5.0+commit.1d4f565a and 0.5.5+commit.1d4f565a compilers, respectively. You will then have to connect your Ganache `HTTP://127.0.0.1:7545` blockchain to your Metamask test environment with the chain code of 1337. 
 
+Then with the "Injected Provider - MetaMask" environment selected in Remix, you can deploy the `KaseiCoinCrowdsaleDeployer` contract with any of your Ganache accounts. With the kasei_crowdsale_address button in Remix you can then deploy the `KaseiCoinCrowdsale` contract, and the same can be done with kasei_token_address and `KaseiCoin`. 
+
+You will then be able to use all of the functions as shown in the gifs shown in the [Summary](#summary) section. 
 
 ![Compile with 0.5.0+commit.1d4f565a compiler](./Resources/Images/compile.png)
 ![Deploy on Remix VM (London) EVM](./Resources/Images/deploy.png)
