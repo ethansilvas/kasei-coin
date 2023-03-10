@@ -31,19 +31,30 @@ Videos of app usage can be found in the [Videos](./Resources/Videos/) folder, as
 Compiled contracts on Remix via Metamask and Ganache setup: 
 
 **KaseiCoin**
+
 ![Image showing successful remix compilation of KaseiCoin.sol file](./Resources/Images/KaseiCoin_compile.png)
 
 **KaseiCoinCrowdsale**
+
 ![Image showing successful remix compilation of KaseiCoinCrowdsale.sol file](./Resources/Images/KaseiCoinCrowdsale_compile.png)
 
 **KaseiCoinCrowdsaleDeployer**
+
 ![Image showing successful remix compilation of KaseiCoinCrowdsale.sol file with deployer contract as well](./Resources/Images/KaseiCoinCrowdsaleDeployer_compile.png)
 
-![](./Resources/Images/balance_of.png)
+Verifying that the contracts keep track of the amount of wei that the minted tokens represent:
 
-The contracts are designed so that they keep a running track of the amount of wei that the minted tokens represent. 
+**balanceOf**
 
-![](./Resources/Images/wei_raised.png)
+![Using balanceOf function to verify that account has 2 Ether in wei](./Resources/Images/balance_of.png)
+
+**weiRaised**
+
+![Verify with weiRaised function that 2000000000000005003 wei have been minted in tokens](./Resources/Images/wei_raised.png)
+
+**totalSupply**
+
+![Verify with totalSupply function that 2000000000000005003 wei have been minted in tokens](./Resources/Images/total_supply.png)
 
 ---
 
