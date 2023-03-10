@@ -1,6 +1,6 @@
 # Kasei Coin - UW FinTech BootCamp Module 21 Challenge
 
-
+This project is my cryptocurrency KaseiCoin which is a ERC-20 compliant fungible token. I implement an automated crowdsale for tokens through Solidity smart contracts and deploy them on a [Ganache](https://trufflesuite.com/ganache/) personal blockchain that is integrated into a [Remix](https://remix.ethereum.org/) environment via [MetaMask](https://metamask.io/). 
 
 ---
 
